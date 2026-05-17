@@ -1,5 +1,5 @@
 import { motion } from 'motion/react';
-import { Building2, Calendar } from 'lucide-react';
+import { Calendar } from 'lucide-react';
 
 // EDIT YOUR EXPERIENCE HERE
 const experiences = [
@@ -37,14 +37,10 @@ export function Experience() {
               viewport={{ once: true }}
               className="bg-slate-900/80 rounded-xl p-6 border border-purple-500/30"
             >
-              <div className="flex items-center gap-2 mb-2 text-purple-300">
+              <h3 className="text-xl font-bold text-white mb-2">{exp.role}</h3>
+              <div className="flex items-center gap-2 mb-3 text-purple-300">
                 <Calendar className="w-4 h-4" />
                 <span>{exp.period}</span>
-              </div>
-              <h3 className="text-xl font-bold text-white mb-1">{exp.role}</h3>
-              <div className="flex items-center gap-2 mb-3 text-cyan-300">
-                <Building2 className="w-4 h-4" />
-                <span>{exp.company}</span>
               </div>
               <ul className="space-y-1 text-white/60">
                 {exp.points.map((point, i) => (
