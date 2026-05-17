@@ -10,13 +10,13 @@ const experiences = [
   },
   {
     role: 'Cybersecurity Specialist',
-    period: '2019 - 2021',
+    period: '2025',
     points: ['Performed 50+ penetration tests', 'Designed network security', 'Achieved ISO 27001 compliance']
   },
    {
-    role: 'Senior web de',
-    period: '2019 - 2021',
-    points: ['Performed 50+ penetration tests', 'Designed network security', 'Achieved ISO 27001 compliance']
+    role:  'Web developer',
+    period: '2019 - 2024',
+    points: ['built 10+ websites', 'Designed network security', ' better user experience ']
   }
 ];
 
