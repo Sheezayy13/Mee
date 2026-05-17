@@ -5,7 +5,7 @@ import { Building2, Calendar } from 'lucide-react';
 const experiences = [
   {
     role: 'Senior Designer & Security Architect',
-    period: ,
+    period:'remote',
     points: ['Led design for security platforms', 'Integrated AI/ML models', 'Reduced security incidents by 67%']
   },
   {
